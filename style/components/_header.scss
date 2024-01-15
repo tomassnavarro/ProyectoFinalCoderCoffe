@@ -1,0 +1,127 @@
+/*HEADER INDEX*/
+
+header {
+        background-image: url(../img/fontimg.jpg);
+        background-color: rgba(0, 0, 0, 0.522);
+        background-blend-mode: soft-light;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        justify-content: space-between;
+        color: white;
+        padding: 0.2rem;
+
+        .menucontainer {
+            display: flex;
+            justify-content: space-between;
+            color: rgba(255, 255, 255, 0.875);
+        
+        }
+
+        ul li {
+            display: inline-block;
+            margin: 1rem 0.2rem auto 0rem;
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-size: 0.6rem;
+
+            a {
+                color: rgba(255, 255, 255, 0.8);
+                }
+        }
+
+        
+
+        .logo {
+            margin: 1rem auto 1.25rem 2.7rem;
+        }
+
+        a img {
+            width: 1.7rem;
+            margin: -55rem -10rem auto -2.5rem;
+            
+        }
+        header a {
+            font-size: large;
+            color: aliceblue;
+        }
+        
+}
+
+header a:hover {
+    color: rgb(184, 148, 93);
+}
+
+
+.headercontent {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: rgb(218, 222, 225);
+
+    h1 {
+        font-size: 2rem;
+        color: rgb(218, 222, 225);
+        margin-top: 0rem;
+    }
+    
+    p {
+        display: flex;
+        text-align: center;
+        margin-top: 0.2rem;
+        margin:3%;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 500px) {
+    header {
+        ul li {
+            font-size: 0.9rem;
+            margin: 1.1rem 0.5rem auto 0rem;
+        }
+        a img {
+            width: 2.4rem;
+            margin: -0.6rem -10rem auto -2.2rem;
+        }
+
+        .headercontent{
+            h1 {
+            font-size: 3rem;
+            color: rgb(218, 222, 225);
+            margin-top: 0rem;
+        }
+        p {
+            font-size: 1.3rem;
+        }
+    }
+    }
+}
+
+
+@media (min-width: 900px) {
+    header {
+        ul li {
+            font-size: 1.1rem;
+            margin: 1.3rem 0.9rem auto 0rem;
+        }
+        a img {
+            width: 3.8rem;
+            margin: -0.6rem -10rem auto -2.2rem;
+        }
+
+        .headercontent{
+            h1 {
+            font-size: 5rem;
+            color: rgb(218, 222, 225);
+            margin-top: 0rem;
+        }
+        p {
+            font-size: 1.6rem;
+        }
+    }
+    }
+}

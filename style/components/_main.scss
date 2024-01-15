@@ -1,0 +1,291 @@
+/*MAIN INDEX*/
+
+.mainreservas{
+    background-image: url(/img/fresh-roasted-coffee-beans-with-copy-space.jpg);
+    background-color: rgba(0, 0, 0, 0.541);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+
+    h2 {
+        display: flex;
+        justify-content: row;
+        text-align: center;
+        justify-content: center;
+        padding-top: 2rem;
+        font-size: 2rem;
+        }
+}
+
+
+main div {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+
+article {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+        .tituloparrafo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.5rem;
+        }
+
+        .reservar {
+            color: white;
+            text-align: center;
+            background-color: black;
+            justify-content: center;
+            display: flex;
+            width: 200px;
+            padding: 10px 10px 10px 20px;
+            margin: 1rem auto auto auto;
+            }
+
+        .linkdireccion{
+            text-decoration: underline;
+            color: white;
+            }
+        
+        .clicmaps {
+            font-size: 0.6rem;
+            color: white;
+        }
+
+}
+
+}
+
+
+
+/* MAIN TIENDA */
+
+
+
+
+.maintienda {
+    background-color:rgba(139, 114, 64, 0.315);
+    height: auto;
+
+    .productosventa {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    padding-top: auto auto auto auto;
+    justify-content: center;
+    
+    .produ {
+        display: grid;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    
+        
+
+        img {
+            width: 15rem;
+            border-radius: 0.6rem;
+            border: 0.2rem solid rgb(144, 129, 110);
+            }
+
+            
+
+        .textoprodu {
+                display: flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items: center;
+                color: black;
+                font-size: large;
+                margin-top: 12px;
+
+                .nombreprodu {
+                    flex-direction: column;
+                    justify-content:center;
+                    align-items: center;
+                    font-size: 1rem;
+                }
+                
+                .precioprodu {
+                    margin-top: -3px;
+                    display: grid;
+                    flex-direction: column;
+                    justify-content:center;
+                    align-items: center;
+                    }
+
+                .botoncomprar {
+                    color: white;
+                    text-align: center;
+                    background-color: black;
+                    justify-content: center;
+                    display: flex;
+                    width: 12.5rem;
+                    padding: 0.2rem 0.2rem 0.2rem 0.2rem ;
+                    margin: 1rem auto auto auto;
+                    border-radius: 0.6rem;
+                }
+                } 
+            
+            
+        
+        }
+        
+    }
+    
+}
+
+
+/* MAIN FRANQUICIA / FORMULARIO */
+
+.titulofranquicia {
+    display: flex;
+    justify-content: row;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    }
+
+.txt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin: 1rem;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin: 1rem;
+}
+
+
+form {
+    width: 90%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+    color: #292828;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+@media (min-width: 500px) {
+    .maintienda {
+        background-color:rgba(139, 114, 64, 0.315);
+        height: auto;
+    
+        .productosventa {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        
+        
+
+            .produ img {
+                width: 18rem;
+            }
+        }
+    }
+
+    .subtitulo {
+        font-size:1.5rem ;
+    }
+    .txt {
+        font-size: 1.1rem ;
+    }
+
+    form {
+        width: 60%;
+    }
+    input, textarea {
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .maintienda {
+        background-color:rgba(139, 114, 64, 0.315);
+        height: auto;
+    
+        .productosventa {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        
+        
+
+            .produ img {
+                width: 25rem;
+            }
+        }
+    }
+    
+    .mainreservas {
+        h2 {
+            font-size: 3rem;
+        }
+        .tituloparrafo{
+            font-size: 2rem;
+       }
+        .linkdireccion{
+            font-size: 0.8rem;
+        }
+        .clicmaps{
+            font-size: 0.8rem;
+        }
+        .reservar{
+            font-size: 1.5rem;
+        }
+    }
+}
+
