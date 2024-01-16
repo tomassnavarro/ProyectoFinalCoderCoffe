@@ -195,6 +195,16 @@ section .sectionfinal div {
 .sectioncontacto p {
   margin: 1rem;
 }
+.sectioncontacto .imgredes {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.737);
+  flex-direction: row;
+  justify-content: center;
+}
+.sectioncontacto .imgredes img {
+  width: 2rem;
+  margin: 1rem;
+}
 
 @media (min-width: 500px) {
   .sectionnosotros {
@@ -211,6 +221,10 @@ section .sectionfinal div {
   }
   .imgdata div p {
     font-size: 1.2rem;
+  }
+  .sectioncontacto .imgredes img {
+    width: 2.5rem;
+    margin: 1rem;
   }
 }
 @media (min-width: 900px) {
