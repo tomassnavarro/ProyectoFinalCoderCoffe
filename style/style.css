@@ -9,23 +9,23 @@ header {
   background-size: cover;
   height: auto;
   justify-content: space-between;
-  color: white;
+  color: rgba(255, 245, 238, 0.952);
   padding: 0.2rem;
 }
 header .menucontainer {
   display: flex;
   justify-content: space-between;
-  color: rgba(255, 255, 255, 0.875);
+  color: rgba(255, 245, 238, 0.952);
 }
 header ul li {
   display: inline-block;
   margin: 1rem 0.2rem auto 0rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 245, 238, 0.952);
   text-decoration: none;
-  font-size: 0.6rem;
+  font-size: map 6rem;
 }
 header ul li a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 245, 238, 0.952);
   text-decoration: none;
 }
 header .logo {
@@ -37,11 +37,11 @@ header a img {
 }
 header header a {
   font-size: large;
-  color: aliceblue;
+  color: rgba(255, 245, 238, 0.952);
 }
 
 header a:hover {
-  color: rgb(184, 148, 93);
+  color: rgba(255, 245, 238, 0.397);
 }
 
 .headercontent {
@@ -50,11 +50,11 @@ header a:hover {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  color: rgb(218, 222, 225);
+  color: rgba(255, 245, 238, 0.952);
 }
 .headercontent h1 {
   font-size: 2rem;
-  color: rgb(218, 222, 225);
+  color: rgba(255, 245, 238, 0.952);
   margin-top: 0rem;
 }
 .headercontent p {
@@ -222,7 +222,7 @@ section .sectionfinal div {
   .imgdata div p {
     font-size: 1.2rem;
   }
-  .sectioncontacto .imgredes img {
+  .sectioncontacto .imgredes a {
     width: 2.5rem;
     margin: 1rem;
   }
@@ -247,8 +247,15 @@ section .sectionfinal div {
   .sectioncontacto {
     margin: 1rem;
   }
+  .sectioncontacto h2 {
+    margin: 1rem;
+    font-size: 1.8rem;
+  }
   .sectioncontacto p {
     margin: 2rem;
+  }
+  .sectioncontacto .txt {
+    font-size: 1.5rem;
   }
   .sectionnosotros {
     margin: 1rem;

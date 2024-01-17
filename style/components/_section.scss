@@ -141,7 +141,7 @@ section .sectionfinal div {
 
 .sectioncontacto {
 
-    .imgredes img {
+    .imgredes a {
             width: 2.5rem;
             margin: 1rem;
         }
@@ -175,9 +175,16 @@ section .sectionfinal div {
     
     .sectioncontacto {
         margin: 1rem;
-    
+        
+        h2 {
+            margin: 1rem;
+            font-size: 1.8rem;
+        }
         p {
             margin: 2rem;
+        }
+        .txt {
+            font-size: 1.5rem;
         }
     }
     
@@ -193,6 +200,7 @@ section .sectionfinal div {
             font-size: 1.5rem;
             margin: 2rem 2rem 14rem 2rem;
         }
+
     }
     
     .sectionfinal {

@@ -1,3 +1,7 @@
+@import "../base/variables";
+@import "../base/maps";
+
+
 /*HEADER INDEX*/
 
 header {
@@ -9,25 +13,25 @@ header {
         background-size: cover;
         height: auto;
         justify-content: space-between;
-        color: white;
+        color: $colorletraprinc;
         padding: 0.2rem;
 
         .menucontainer {
             display: flex;
             justify-content: space-between;
-            color: rgba(255, 255, 255, 0.875);
+            color: $colorletraprinc;
         
         }
 
         ul li {
             display: inline-block;
             margin: 1rem 0.2rem auto 0rem;
-            color: rgba(255, 255, 255, 0.8);
+            color: $colorletraprinc;
             text-decoration: none;
             font-size: 0.6rem;
 
             a {
-                color: rgba(255, 255, 255, 0.8);
+                color: $colorletraprinc;
                 text-decoration: none;
                 }
         }
@@ -45,13 +49,13 @@ header {
         }
         header a {
             font-size: large;
-            color: aliceblue;
+            color: $colorletraprinc;
         }
         
 }
 
 header a:hover {
-    color: rgb(184, 148, 93);
+    color: rgba(255, 245, 238, 0.397);
 }
 
 
@@ -61,11 +65,11 @@ header a:hover {
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    color: rgb(218, 222, 225);
+    color: $colorletraprinc;
 
     h1 {
         font-size: 2rem;
-        color: rgb(218, 222, 225);
+        color: $colorletraprinc;
         margin-top: 0rem;
     }
     
