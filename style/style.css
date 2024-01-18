@@ -22,7 +22,7 @@ header ul li {
   margin: 1rem 0.2rem auto 0rem;
   color: rgba(255, 245, 238, 0.952);
   text-decoration: none;
-  font-size: map 6rem;
+  font-size: 0.6rem;
 }
 header ul li a {
   color: rgba(255, 245, 238, 0.952);
@@ -176,12 +176,14 @@ section .sectionfinal div {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 0.7rem;
+  margin: 1.5rem;
   font-size: 1rem;
+  padding: 2rem 1rem 2rem 1rem;
 }
 .sectionnosotros p {
-  margin: 1rem;
-  font-size: 0.8rem;
+  margin: 2rem;
+  font-size: 1.1rem;
+  padding: 2rem 1rem 3rem 1rem;
 }
 
 /*SECTION TEXTO CONTACTO*/
@@ -213,11 +215,11 @@ section .sectionfinal div {
     justify-content: center;
     text-align: center;
     margin: 0.7rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .sectionnosotros p {
-    margin: 1rem;
-    font-size: 1.1rem;
+    margin: 2rem;
+    font-size: 1.5rem;
   }
   .imgdata div p {
     font-size: 1.2rem;

@@ -79,12 +79,14 @@ section .sectionfinal div {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin: 0.7rem;
+        margin: 1.5rem;
         font-size: 1rem;
+        padding: 2rem 1rem 2rem 1rem;
 
         p {
-            margin: 1rem;
-            font-size: 0.8rem;
+            margin: 2rem;
+            font-size: 1.1rem;
+            padding: 2rem 1rem 3rem 1rem;
         }
 }
 
@@ -125,11 +127,11 @@ section .sectionfinal div {
         justify-content: center;
         text-align: center;
         margin: 0.7rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
 
         p {
-            margin: 1rem;
-            font-size: 1.1rem;
+            margin: 2rem;
+            font-size: 1.5rem;
         }
     }   
 
